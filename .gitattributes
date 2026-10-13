@@ -1,0 +1,11 @@
+# Line endings (Sept 30 2026). core.autocrlf is false on this machine, so an
+# editor that saves CRLF used to rewrite every line of a file in git: d52fbda
+# showed ~9,000 changed lines for a 64-line edit. Store text as LF; Windows
+# launchers keep CRLF so cmd.exe reads them right.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.xlsx binary
+*.png binary
+*.pdf binary
